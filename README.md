@@ -9,6 +9,8 @@ found in `test_boards.txt`.
 2. Use `solve(board)`, where the argument "board" is the 2D array of 
 the sudoku puzzle, if executing the `baseSudoku.py` version.
 3. Use `main(board)` when executing the `visualSudoku.py` version.
+4. Change the frames per second, box size, boarder size and grid line
+size with the variables at the top of the `visualSudoku.py` file.
 
 ## Requirements
 
