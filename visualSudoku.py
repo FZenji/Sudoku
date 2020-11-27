@@ -15,9 +15,9 @@ pygame.display.set_caption("Sudoku Solver")
 numbers = pygame.font.SysFont("robotocondensed", 50)
 
 # Window size and customisable variable initialisation
-boarder_width = 12
-grid_space = 4
-width_height = 200
+boarder_width = 3
+grid_space = 1
+width_height = 50
 screen = pygame.display.set_mode((9*width_height+2*boarder_width+8*grid_space,
                                   9*width_height+2*boarder_width+8*grid_space))
 
