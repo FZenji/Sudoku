@@ -1,21 +1,21 @@
 import pygame
 
-# colours
+# Colours
 WHITE = 255, 255, 255
 GREY = 192, 192, 192
 DARKGREY = 96, 96, 96
 BLACK = 0, 0, 0
 
-# number of frames per second
+# Frames per second
 FPS = 144
 
-# initialising pygame
+# Initialising pygame
 pygame.init()
 pygame.display.set_caption("Sudoku Solver")
 numbers = pygame.font.SysFont("robotocondensed", 50)
 
-# window size
-boarder_width = 12  # Better to keep number odd
+# Window size and customisable variable initialisation
+boarder_width = 12
 grid_space = 4
 width_height = 200
 screen = pygame.display.set_mode((9*width_height+2*boarder_width+8*grid_space,
